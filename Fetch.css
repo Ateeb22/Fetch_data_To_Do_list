@@ -1,0 +1,83 @@
+.d {
+    background: rgb(95,136,255);
+background: linear-gradient(0deg, rgba(95,136,255,1) 0%, rgba(129,255,65,1) 100%);
+  height: 710px;
+  width: 1500px;
+}
+.do {
+  box-sizing: border-box;
+  width: 600px;
+  height: 100%;
+  border: 3px solid blueviolet;
+  margin-left: 450px;
+}
+.do1 {
+  text-align: center;
+}
+.do2 {
+  margin: 20px 30px 20px 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-color: darkmagenta;
+  border: 3px solid darkmagenta;
+  background: rgb(48,222,242);
+background: linear-gradient(0deg, rgba(48,222,242,1) 0%, rgba(182,255,18,1) 100%);
+}
+.do3 {
+  font-size: large;
+  font-style: italic;
+  padding-bottom: 5px;
+}
+.do4 {
+  width: 300px;
+  height: 35px;
+  background-color: lavenderblush;
+  border: none;
+  padding-left: 10px;
+}
+
+.do5 {
+  width: 80px;
+  height: 37px;
+  background-color: deepskyblue;
+  margin-left: -3px;
+  border: none;
+}
+.do5:hover {
+    background: rgb(112,232,108);
+    background: linear-gradient(0deg, rgba(112,232,108,1) 0%, rgba(18,253,255,1) 100%);
+  color: white;
+  cursor: pointer;
+}
+.do6 {
+  font-size: large;
+  font-style: italic;
+}
+.do7 {
+  margin: 20px 30px 20px 30px;
+  height: 430px;
+  overflow: auto;
+  min-width: 510px;
+  overflow-x: auto;
+  border-color: darkmagenta;
+  border: 3px solid darkmagenta;
+  background: rgb(48,222,242);
+background: linear-gradient(0deg, rgba(48,222,242,1) 0%, rgba(182,255,18,1) 100%);
+}
+.do8 {
+  padding-bottom: 10px;
+}
+span.close {
+  cursor: pointer;
+  font-size: 38px;
+  color: darkred;
+}
+.close {
+  top: 5px;
+  position: relative;
+  margin-left: 160px;
+}
+
+span.close:hover {
+  color: red;
+}

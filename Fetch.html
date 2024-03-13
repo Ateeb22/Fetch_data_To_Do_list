@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO_DO_LIST</title>
+    <link rel="stylesheet" href="Fetch.css">
+    <script src="Fetch.js"></script>
+  </head>
+  <body>
+    <div class="d">
+      <div class="do">
+        <div class="do1">
+          <h2>To Do List</h2>
+          <div>
+            <fieldset class="do2">
+              <legend class="do3">Analysis...</legend>
+              <input
+                type="text"
+                class="do4"
+                id="info"
+                placeholder="Type Here...."
+                oninput="tosearch()"
+                />
+              <button   class="do5">Search</button>        
+            </fieldset>
+            <div class="do6">
+              <fieldset class="do7">              
+                <legend class="do8">Executed Data...</legend>               
+                <label id="userListContainer"></label>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
